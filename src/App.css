@@ -10,7 +10,23 @@
   margin: auto;
   display: flex;
   flex-direction: column;
+  height: 600px;
+  justify-content: center;
+  background-image: url(/src/assets/pictures/pizza-2068272.jpg);
+  background-size: cover;
+  background-position: center;
 }
+
+.header {
+  height: 50px;
+  justify-content: center;
+  background-color: orange;
+}
+
+.header h2 {
+  font-size: 2em;
+}
+
 
 .inputs {
   display: flex;
