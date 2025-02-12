@@ -2,8 +2,8 @@ import React from "react";
 
 function BusinessComponent({business}) {
     return (
-        <div>
-            <img src={business.imageSrc} alt={business.name} />
+        <div className="business">
+            <img className="image" src={business.imageSrc} alt={business.name} />
             <h3 className="name">{business.name}</h3>
             <p className="address">{business.address}</p>
             <p className="city">{business.city}</p>
