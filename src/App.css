@@ -1,0 +1,42 @@
+* {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.searchbar {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  height: 35px;
+
+}
+
+.inputs input {
+  background-color: white;
+  width: 45%;
+  height: 100%;
+  border-radius: 6px;
+  border: none;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.submitBtn {
+  margin: 20px;
+  height: 35px;
+  width: 90px;
+  border-radius: 6px;
+  background-color: orange;
+  border: none;
+  font-size: 1em;
+  font-weight: bolder;
+}
