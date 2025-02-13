@@ -5,13 +5,18 @@ function BusinessComponent({business}) {
         <div className="business">
             <img className="image" src={business.imageSrc} alt={business.name} />
             <h3 className="name">{business.name}</h3>
-            <p className="address">{business.address}</p>
-            <p className="city">{business.city}</p>
-            <p className="state">{business.state}</p>
-            <p className="zipcode">{business.zipcode}</p>
-            <p className="category">{business.category}</p>
-            <p className="rating">{business.rating}</p>
-            <p className="review-count">{business.reviewCount}</p>
+            <div className="info">
+                <div className="info-left">
+                    <p className="address">{business.address}</p>
+                    <p className="city">{business.city}</p>
+                    <p className="state">{business.state} {business.zipCode}</p>
+                </div>
+                <div className="info-right">
+                    <p className="category">{business.category}</p>
+                    <p className="rating">{business.rating} stars</p>
+                    <p className="review-count">{business.reviewCount} reviews</p>
+                </div>
+            </div>
         </div>
     )
 };
