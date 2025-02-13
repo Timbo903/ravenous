@@ -23,6 +23,39 @@ const businesses = {
         category: 'Napolitana',
         rating: 5,
         reviewCount: 99
+    },
+    PizzaKing: {
+        imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
+        name: 'Pizza King Pizzeria',
+        address: '1030 Trump street',
+        city: 'Manhatan',
+        state: 'NY',
+        zipCode: '10101',
+        category: 'Olive',
+        rating: 5,
+        reviewCount: 100
+    },
+    toyStorry: {
+        imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
+        name: 'Toy Storry Pizzeria',
+        address: '1020 Factory street',
+        city: 'Manhatan',
+        state: 'NY',
+        zipCode: '10101',
+        category: 'Cosmo',
+        rating: 4,
+        reviewCount: 85
+    },
+    PizzaGuy: {
+        imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
+        name: 'Pizza Guy Pizzeria',
+        address: '1020 Guy street',
+        city: 'Manhatan',
+        state: 'NY',
+        zipCode: '10101',
+        category: 'Guy',
+        rating: 5,
+        reviewCount: 110
     }
 }
 
