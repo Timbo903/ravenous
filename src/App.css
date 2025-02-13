@@ -50,6 +50,7 @@
 
 .inputs input {
   background-color: white;
+  color: black;
   width: 45%;
   height: 100%;
   border-radius: 6px;
@@ -71,7 +72,7 @@
 
 .business-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 20px;
   background-color: white;
   justify-content: center;
@@ -80,7 +81,7 @@
 }
 
 .business {
-  width: 400px;
+  width: 350px;
   height: 400px;
   background-color: white;
   border-radius: 10px;
@@ -138,5 +139,21 @@
 
 .info-right {
   align-items: flex-end;
+}
+
+.filter {
+  display: flex;
+  width: 600px;
+  margin: 60px;
+  justify-content: space-around;
+  border-bottom: 2px solid white;
+}
+
+.filter h2 {
+  line-height: 1.2;
+  font-weight: bolder;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: 10px;
 }
 
